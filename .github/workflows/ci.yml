@@ -7,6 +7,26 @@ on:
       - master
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2.0.0
+
+      - name: Install Node
+        uses: actions/setup-node@v1.3.0
+        with:
+          node-version: 12
+
+      - run: npm ci
+
+      - run: npm run publish
+
+      - uses: ./
+
+      - run: npm run markdownlint
+
   build:
     runs-on: ubuntu-latest
 
