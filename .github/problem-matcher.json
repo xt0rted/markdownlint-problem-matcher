@@ -1,10 +1,10 @@
 {
   "problemMatcher": [
     {
-      "owner": "somelinter",
+      "owner": "markdownlint",
       "pattern": [
         {
-          "regexp": "^([^:]*):(\\d+):?(\\d+)?\\s+([\\w-\\/]*)\\s+(.*)$",
+          "regexp": "^([^:]*):(\\d+):?(\\d+)?\\s([\\w-\\/]*)\\s(.*)$",
           "file": 1,
           "line": 2,
           "column": 3,

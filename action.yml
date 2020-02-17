@@ -1,6 +1,6 @@
-name: "Problem Matcher"
+name: "Problem Matcher for markdownlint-cli"
 
-description: "Sets up a problem matcher that's used to create annotations for violations"
+description: "Sets up a problem matcher for markdownlint-cli that's used to create annotations for violations"
 
 author: "xt0rted"
 

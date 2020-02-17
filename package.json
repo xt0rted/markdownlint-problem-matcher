@@ -1,8 +1,8 @@
 {
-  "name": "problem-matcher",
+  "name": "markdownlint-problem-matcher",
   "version": "1.0.0",
   "private": true,
-  "description": "Sets up a problem matcher to create annotations for violations",
+  "description": "Sets up a problem matcher for markdownlint-cli to create annotations for violations",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xt0rted/problem-matcher.git"
+    "url": "git+https://github.com/xt0rted/markdownlint-problem-matcher.git"
   },
   "keywords": [
     "actions",

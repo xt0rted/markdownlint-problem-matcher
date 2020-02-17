@@ -6,7 +6,7 @@ const problemMatcher: ProblemMatcher = problemMatcherJson[0];
 
 describe("problemMatcher", () => {
   it("has the correct owner", () => {
-    expect(problemMatcher.owner).toEqual("somelinter");
+    expect(problemMatcher.owner).toEqual("markdownlint");
   });
 
   it("has one pattern", () => {
