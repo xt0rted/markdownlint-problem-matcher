@@ -27,6 +27,11 @@ jobs:
 
       - run: npm run markdownlint
 
+      - uses: ./
+        if: success() || failure()
+        with:
+          action: remove
+
   build:
     runs-on: ubuntu-latest
 
