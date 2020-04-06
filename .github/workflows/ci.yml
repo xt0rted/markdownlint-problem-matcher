@@ -12,10 +12,10 @@ jobs:
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v2.0.0
+        uses: actions/checkout@v2.1.0
 
       - name: Install Node
-        uses: actions/setup-node@v1.3.0
+        uses: actions/setup-node@v1.4.1
         with:
           node-version: 12
 
@@ -41,10 +41,10 @@ jobs:
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v2.0.0
+        uses: actions/checkout@v2.1.0
 
       - name: Install Node
-        uses: actions/setup-node@v1.3.0
+        uses: actions/setup-node@v1.4.1
         with:
           node-version: ${{ matrix.node }}
 
