@@ -33,7 +33,7 @@
     "@zeit/ncc": "^0.22.1",
     "github-actions-problem-matcher-typings": "^1.1.0",
     "jest": "^25.5.3",
-    "jest-circus": "^25.5.3",
+    "jest-circus": "^25.5.4",
     "markdownlint-cli": "^0.22.0",
     "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
