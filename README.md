@@ -5,7 +5,17 @@
 
 Adds a problem matcher that will detect errors from [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) and create annotations for them.
 
-## Usage
+**Demo annotations**
+
+Here are some changes to **demo ** the annotations.
+
+***
+
+---
+
+- - -
+
+### Usage
 
 ```yml
 on: push
