@@ -1,7 +1,6 @@
 # Problem Matcher for markdownlint-cli
 
 [![CI Workflow Status](https://github.com/xt0rted/markdownlint-problem-matcher/workflows/CI/badge.svg)](https://github.com/xt0rted/markdownlint-problem-matcher/actions?query=workflow%3ACI)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=xt0rted/markdownlint-problem-matcher)](https://dependabot.com)
 
 Adds a problem matcher that will detect errors from [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) and create annotations for them.
 
