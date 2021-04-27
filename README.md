@@ -1,6 +1,6 @@
 # Problem Matcher for markdownlint-cli
 
-[![CI Workflow Status](https://github.com/xt0rted/markdownlint-problem-matcher/workflows/CI/badge.svg)](https://github.com/xt0rted/markdownlint-problem-matcher/actions?query=workflow%3ACI)
+[![CI](https://github.com/xt0rted/markdownlint-problem-matcher/actions/workflows/ci.yml/badge.svg)](https://github.com/xt0rted/markdownlint-problem-matcher/actions/workflows/ci.yml)
 
 Adds a problem matcher that will detect errors from [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) and create annotations for them.
 
