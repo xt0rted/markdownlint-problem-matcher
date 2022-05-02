@@ -33,7 +33,7 @@
     "@vercel/ncc": "^0.33.4",
     "github-actions-problem-matcher-typings": "^1.1.0",
     "jest": "^28.0.2",
-    "jest-circus": "^28.0.2",
+    "jest-circus": "^28.0.3",
     "markdownlint-cli": "^0.31.1",
     "ts-jest": "^28.0.0-next.2",
     "typescript": "^4.6.4"
