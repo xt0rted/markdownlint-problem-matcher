@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Bumped `@actions/core` from 1.2.6 to 1.7.0
+- Bumped `@actions/core` from 1.2.6 to 1.8.2
 - Updated node runtime from 12 to 16
 
 ## Version 1.1.0
