@@ -13,8 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: xt0rted/markdownlint-problem-matcher@v1
+      - uses: actions/checkout@v3
+      - uses: xt0rted/markdownlint-problem-matcher@v2
       - run: markdownlint **/*.md --ignore node_modules
 ```
 
