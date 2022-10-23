@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-## 2.0.0- 2022-10-22
+## 2.0.0 - 2022-10-22
 
 - Bumped `@actions/core` from 1.2.6 to 1.10.0
 - Updated node runtime from 12 to 16
