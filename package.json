@@ -36,6 +36,6 @@
     "jest-circus": "^29.5.0",
     "markdownlint-cli": "^0.34.0",
     "ts-jest": "^28.0.8",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.3"
   }
 }
