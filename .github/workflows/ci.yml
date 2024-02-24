@@ -67,7 +67,3 @@ jobs:
       - run: npm test
 
       - run: npm run package
-        if: ${{ matrix.node != 17 }}
-
-      - run: export NODE_OPTIONS=--openssl-legacy-provider && npm run package
-        if: ${{ matrix.node == 17 }}
