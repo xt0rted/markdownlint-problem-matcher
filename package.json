@@ -10,7 +10,7 @@
     "build": "tsc",
     "lint": "tsc --noEmit",
     "markdownlint": "markdownlint **/*.md --ignore node_modules",
-    "package": "ncc build src/main.ts",
+    "package": "ncc build src/main.ts --source-map --license license.txt",
     "release": "npm run package && git add -f dist/",
     "test": "jest"
   },
