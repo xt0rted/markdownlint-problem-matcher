@@ -1,3 +1,4 @@
+/** @type {import("ts-jest").JestConfigWithTsJest} */
 export default {
   clearMocks: true,
   collectCoverage: true,
@@ -8,18 +9,13 @@ export default {
     "!**/node_modules/**",
   ],
   coverageDirectory: "./coverage/",
-  globals: {
-    "ts-jest": {
-      diagnostics: false,
-    }
-  },
   moduleFileExtensions: ["js", "ts"],
   reporters: ["default", "github-actions"],
   testEnvironment: "node",
   testMatch: ["**/*.test.ts"],
   testRunner: "jest-circus/runner",
   transform: {
-    "^.+\\.ts$": "ts-jest",
+    "^.+\\.ts$": ["ts-jest", { diagnostics: false }],
   },
   verbose: true,
 };
