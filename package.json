@@ -4,6 +4,7 @@
   "private": true,
   "description": "Sets up a problem matcher for markdownlint-cli to create annotations for violations",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "lint": "tsc --noEmit",
