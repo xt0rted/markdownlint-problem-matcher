@@ -45,7 +45,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: [16, 17]
+        node:
+          - 20
+          - 21
 
     steps:
       - name: Checkout Repo
