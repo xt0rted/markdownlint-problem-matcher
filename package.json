@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
+    "clean": "rimraf coverage dist lib",
     "build": "tsc",
     "lint": "tsc --noEmit",
     "markdownlint": "markdownlint **/*.md --ignore node_modules",
@@ -36,6 +37,7 @@
     "jest": "^29.7.0",
     "jest-circus": "^29.7.0",
     "markdownlint-cli": "^0.39.0",
+    "rimraf": "^5.0.5",
     "ts-jest": "^29.1.2",
     "typescript": "^5.3.3"
   }
