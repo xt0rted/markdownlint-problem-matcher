@@ -32,7 +32,7 @@
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^20.14.11",
-    "@vercel/ncc": "^0.38.2",
+    "@vercel/ncc": "^0.38.3",
     "github-actions-problem-matcher-typings": "^1.1.0",
     "jest": "^29.7.0",
     "jest-circus": "^29.7.0",
