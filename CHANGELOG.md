@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Bumped `@actions/core` from 1.10.1 to 1.11.1
+
 ## 3.0.0 - 2024-02-24
 
 - Updated node runtime from 16 to 20
